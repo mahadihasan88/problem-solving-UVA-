@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>#include<iostream>#include<conio.h>int main(){    int n,sum=0;    cin>>n    for(int i=n;i>=1;i=i-2)    {        int sum=sum+i;    }    cout<<sum;    getch();}

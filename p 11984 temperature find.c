@@ -1,0 +1,1 @@
+#include<stdio.h>#include<math.h>int main(){    int i,T;    double tem,k,f,c,d;    scanf("%d",&T);   for(i=0;i<T;i++)    {        scanf("%lf%lf",&c,&d);        f=(1.8*c)+32;        k=f+d;        tem=(k-32)/1.8;        printf("Case %d:%.2lf\n",i+1,tem);    }    return 0;}

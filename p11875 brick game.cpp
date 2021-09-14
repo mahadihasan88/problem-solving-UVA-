@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>#include<conio.h>using namespace std;int main(){    int n,i,k,t,st[100];    cin>>t;    for(i=1;i<=t;i++)    {        cin>>n;        for(int j=1;j<=n;j++)        {            cin>>st[j];        }        k=(n+1)/2;        cout<<"Case "<<i<<": "<<st[k];        cout<<endl;    }    getch();}

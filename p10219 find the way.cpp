@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    long long int n,k,mul=1,m=1,x=0;    cin>>n>>k;    for(long long int i=n; i>n-k; i--)    {        mul=mul*i;    }    for(long long int j=k; j>1; j--)    {        m=m*j;    }    x=mul/m;    cout<<log10(x)<<endl;}

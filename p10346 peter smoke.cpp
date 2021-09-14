@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    int n,k,sum,r,d,m;    while(cin>>n>>k &&(n,k)!=EOF)    {        m=n;        sum=0;        while(n>=k)        {            d=n/k;            r=n%k;            n=d+r;            sum=sum+d;        }        cout<<sum+m<<endl;    }    return 0;}

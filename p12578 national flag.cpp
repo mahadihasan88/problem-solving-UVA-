@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>#include<math.h>using namespace std;int main(){    int t;    double we,ar,r,l,b,so,pi;    pi=acos(-1);    cin>>t;    while(t--)    {        cin>>l;        r=l/5;        we=(6*l)/10;        ar=pi*r*r;        b=l*we;        so=b-ar;        cout<<fixed;        cout<<setprecision(2);        cout<<ar<<' '<<so<<endl;    }    return 0;}

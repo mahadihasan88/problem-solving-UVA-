@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    char st[20],n;    int x;    cin>>n;    for(int i=1;i<=n;i++)    {        st[i]=i;        i++;    }    puts(st);}

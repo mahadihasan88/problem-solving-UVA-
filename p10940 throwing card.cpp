@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    int n;    cin>>n;    int ar[n],j=0;    for(int i=n; i>=1; i--)    {        ar[j]=i;        j++;    }    for(j=n;j>1;j--)    {        ar[n-1]=0;        ar[0]=ar[n-2];        ar[n-1]=ar[n-3];      cout<<ar[0];    }}

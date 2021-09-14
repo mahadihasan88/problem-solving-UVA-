@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    long long int n,sum,i,k;    while(scanf("%lld",&n)!=EOF)    {        sum=0;        for( i=n; i>=1; i=i-2)        {            sum=sum+i;        }        k=(2*sum-1)+(2*sum-3)+(2*sum-5);        cout<<k<<endl;    }    return 0;}
